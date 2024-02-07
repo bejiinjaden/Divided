@@ -259,6 +259,8 @@ position: relative;
 }
 
 .social-media i{
+  position: absolute;
+  bottom: 0%;
   margin-left: 40px;
   
 }
