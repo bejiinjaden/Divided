@@ -1,0 +1,297 @@
+body{
+  
+  position: relative;
+  margin: 0;
+  
+ 
+}
+
+.header-img{
+  width: 200px;
+  margin-left: 90px;
+  height: 100px;
+  z-index: 1;
+  position: absolute;
+  left: 40%;
+  
+}
+
+.header{
+    display: flex;
+    
+justify-content: center;
+    
+    background-color: rgba(0, 0, 46, 0.87);
+    height: 115px;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+}
+
+@keyframes imageslider1 {
+
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(500px);
+    }
+
+}
+
+@keyframes imageslider2 {
+
+    from{
+        transform: translateX(-400px);
+    }
+
+    to{
+        transform: translateX(400px);
+    }
+
+}
+
+.slideimgs{
+
+    height: 250px;
+  
+}
+
+.middle-image{
+    height: 600px;
+    width: 100%;
+display: flex;
+justify-content: center;
+overflow: hidden;
+
+align-items: center;
+position: relative;
+}
+
+.slideshow-container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    
+    width: 320px;
+    overflow: hidden;
+}
+
+.animation1{
+    animation-name: imageslider1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1.2s;
+}
+
+.animation2{
+    
+    animation-name: imageslider2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite ;
+  animation-timing-function: linear;
+}
+.slideshow-div1 , .slideshow-div2{
+    display: inline-block;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/* CSS */
+.buy-now-btn {
+  align-items: center;
+  background-color: #f1da05;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 60px;
+  justify-content: center;
+  line-height: 24px;
+ width: 150px;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  
+}
+
+.buy-now-btn:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 60px;
+  left: 0;
+  width: 150px;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.buy-now-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.buy-now-btn:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.buy-now-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+.cursor{
+  width: 20px;
+  height: 20px;
+  border: 1px solid ;
+  border-radius: 17px;
+  position: absolute;
+  z-index: 0;
+  
+  background: gold;
+}
+
+.gold-bubbles{
+  position: relative;
+  display: flex;
+}
+
+.gold-bubbles span{
+  position: relative;
+  width: 10px;
+
+  height: 10px;
+  background: gold;
+  margin: 0 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 0 lightgoldenrodyellow , 0 0 15px gold , 0 0 50px gold;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(50s / var(--i));
+  z-index: -1;
+}
+
+@keyframes animate{
+
+
+  from{
+    transform: translateY(120px);
+  }
+
+  to{
+    transform:translateY(-120px);
+  }
+}
+
+.about-author-container{
+  position: relative;
+  height: 800px;
+}
+
+.author-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-size: cover;
+   background-position: center;
+   position: absolute;
+   left: 45%;
+
+}
+
+.about-author{
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  
+
+}
+
+.about-author p{
+  font-size: 30px;
+  font-weight: bold;
+  
+
+}
+
+.about-author p::selection {
+    
+  background-color: gold;
+  
+}
+
+.social-media{
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+ .fa-medium , .fa-goodreads-g{
+  font-size: 60px;
+}
+
+.social-media i{
+  margin-left: 40px;
+}
+
+.fa-instagram{
+  font-size: 65px;
+  transition: background-color 80ms;
+  border-radius: 20px;
+  
+}
+
+.fa-instagram:hover{
+ background-color: gold;
+
+}
+
+.fa-medium{
+  border-radius: 20px;
+  transition: background-color 100ms;
+
+}
+
+.fa-medium:hover{
+  background-color: gold;
+}
+
+.fa-goodreads-g{
+  border-radius: 10px;
+  transition: background-color 80ms;
+
+}
+
+.fa-goodreads-g:hover{
+  background-color: gold;
+}
+
+
+
+
