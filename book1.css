@@ -296,13 +296,7 @@ position: relative;
   background-color: gold;
 }
 
-@media (min-width: 375px){
-  
-  .header{
-    width: 375px;
-  }
-  
-}
+
 
 
 
