@@ -2,13 +2,14 @@ body{
   
   position: relative;
   margin: 0;
-  height: 1800px;
+  height: 1900px;
   
  
 }
 
 .header-img{
   width: 200px;
+  margin-left: 90px;
   height: 100px;
   z-index: 1;
   position: absolute;
@@ -212,6 +213,7 @@ position: relative;
 .about-author-container{
   position: relative;
   height: 800px;
+  
 }
 
 .author-img{
@@ -221,7 +223,7 @@ position: relative;
   background-size: cover;
    background-position: center;
    position: absolute;
-   left: 40%;
+   left: 45%;
 
 }
 
@@ -229,7 +231,7 @@ position: relative;
   position: absolute;
   left: 10%;
   top: 40%;
-  margin-bottom: 50%;
+  margin-bottom: 30px;
   
 
 }
@@ -249,8 +251,8 @@ position: relative;
 
 .social-media{
   position: absolute;
-  bottom: 0%;
-  left: 40%;
+  
+left: 40%;
   
 }
 
@@ -259,7 +261,6 @@ position: relative;
 }
 
 .social-media i{
-
   margin-left: 40px;
   
 }
@@ -289,157 +290,13 @@ position: relative;
 .fa-goodreads-g{
   border-radius: 10px;
   transition: background-color 80ms;
+  height: 50px;
 
 }
 
 .fa-goodreads-g:hover{
   background-color: gold;
 }
-
-@media (max-width: 400px){
-
-  .header-img{
-    left: 8%;
-  }
-  .gold-bubbles span{
-    margin: 0 10px;
-  }
-
-  .author-img{
-    left: 25%;
-  }
-
-  .about-author p{
-    font-size: 1rem;
-  }
-
-  .about-author{
-    top: 30%;
-  }
-
-  .social-media{
-    left: 7%;
-  }
-}
-
-@media (max-width: 480px){
-
-  .header-img{
-    left: 12%;
-  }
-  .gold-bubbles span{
-    margin: 0 10px;
-  }
-
-  .author-img{
-    left: 29%;
-  }
-
-  .about-author p{
-    font-size: 1rem;
-  }
-
-  .about-author{
-    top: 30%;
-  }
-
-  .social-media{
-    left: 13%;
-  }
-}
-
-@media (max-width: 640px){
-
-  .header-img{
-    left: 25%;
-  }
-  .gold-bubbles span{
-    margin: 0 10px;
-  }
-
-  .author-img{
-    left: 35%;
-  }
-
-  .about-author p{
-    font-size: 1.2rem;
-  }
-
-  .about-author{
-    top: 30%;
-  }
-
-  .social-media{
-    left: 24%;
-  }
-
-  .header{
-    height: 130px;
-  }
-}
-
-@media (max-width: 750px){
-
-  .header-img{
-    left: 28%;
-  }
-  .gold-bubbles span{
-    margin: 0 10px;
-  }
-
-  .author-img{
-    left: 35%;
-  }
-
-  .about-author p{
-    font-size: 1.2rem;
-  }
-
-  .about-author{
-    top: 30%;
-  }
-
-  .social-media{
-    left: 24%;
-  }
-
-  .header{
-    height: 130px;
-  }
-}
-
-@media (max-width: 1080px){
-
-  .header-img{
-    left: 34%;
-  }
-  .gold-bubbles span{
-    margin: 0 10px;
-  }
-
-  .author-img{
-    left: 39%;
-  }
-
-  .about-author p{
-    font-size: 1.2rem;
-  }
-
-  .about-author{
-    top: 30%;
-  }
-
-  .social-media{
-    left: 32%;
-  }
-
-  .header{
-    height: 130px;
-  }
-}
-
-
-
 
 
 
